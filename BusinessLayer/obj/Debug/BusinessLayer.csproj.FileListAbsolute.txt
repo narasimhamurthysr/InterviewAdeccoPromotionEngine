@@ -1,0 +1,10 @@
+E:\PROJECT_OLD\PROJECT\InterviewAdeccoPromotionEngine\BusinessLayer\bin\Debug\BusinessLayer.dll
+E:\PROJECT_OLD\PROJECT\InterviewAdeccoPromotionEngine\BusinessLayer\bin\Debug\BusinessLayer.pdb
+E:\PROJECT_OLD\PROJECT\InterviewAdeccoPromotionEngine\BusinessLayer\obj\Debug\BusinessLayer.csprojAssemblyReference.cache
+E:\PROJECT_OLD\PROJECT\InterviewAdeccoPromotionEngine\BusinessLayer\obj\Debug\BusinessLayer.dll
+E:\PROJECT_OLD\PROJECT\InterviewAdeccoPromotionEngine\BusinessLayer\obj\Debug\BusinessLayer.pdb
+E:\PROJECT_OLD\PROJECT\InterviewAdeccoPromotionEngine\BusinessLayer\bin\Debug\CommonLayer.dll
+E:\PROJECT_OLD\PROJECT\InterviewAdeccoPromotionEngine\BusinessLayer\bin\Debug\DataAccessLayer.dll
+E:\PROJECT_OLD\PROJECT\InterviewAdeccoPromotionEngine\BusinessLayer\bin\Debug\CommonLayer.pdb
+E:\PROJECT_OLD\PROJECT\InterviewAdeccoPromotionEngine\BusinessLayer\bin\Debug\DataAccessLayer.pdb
+E:\PROJECT_OLD\PROJECT\InterviewAdeccoPromotionEngine\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete

@@ -1,0 +1,4 @@
+E:\PROJECT_OLD\PROJECT\InterviewAdeccoPromotionEngine\CommonLayer\bin\Debug\CommonLayer.dll
+E:\PROJECT_OLD\PROJECT\InterviewAdeccoPromotionEngine\CommonLayer\bin\Debug\CommonLayer.pdb
+E:\PROJECT_OLD\PROJECT\InterviewAdeccoPromotionEngine\CommonLayer\obj\Debug\CommonLayer.dll
+E:\PROJECT_OLD\PROJECT\InterviewAdeccoPromotionEngine\CommonLayer\obj\Debug\CommonLayer.pdb

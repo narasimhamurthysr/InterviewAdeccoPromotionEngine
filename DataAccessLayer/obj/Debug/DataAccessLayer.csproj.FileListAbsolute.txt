@@ -1,0 +1,8 @@
+E:\PROJECT_OLD\PROJECT\InterviewAdeccoPromotionEngine\DataAccessLayer\obj\Debug\DataAccessLayer.csprojAssemblyReference.cache
+E:\PROJECT_OLD\PROJECT\InterviewAdeccoPromotionEngine\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+E:\PROJECT_OLD\PROJECT\InterviewAdeccoPromotionEngine\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+E:\PROJECT_OLD\PROJECT\InterviewAdeccoPromotionEngine\DataAccessLayer\bin\Debug\CommonLayer.dll
+E:\PROJECT_OLD\PROJECT\InterviewAdeccoPromotionEngine\DataAccessLayer\bin\Debug\CommonLayer.pdb
+E:\PROJECT_OLD\PROJECT\InterviewAdeccoPromotionEngine\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CopyComplete
+E:\PROJECT_OLD\PROJECT\InterviewAdeccoPromotionEngine\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+E:\PROJECT_OLD\PROJECT\InterviewAdeccoPromotionEngine\DataAccessLayer\obj\Debug\DataAccessLayer.pdb

@@ -2,3 +2,4 @@ E:\PROJECT_OLD\PROJECT\InterviewAdeccoPromotionEngine\CommonLayer\bin\Debug\Comm
 E:\PROJECT_OLD\PROJECT\InterviewAdeccoPromotionEngine\CommonLayer\bin\Debug\CommonLayer.pdb
 E:\PROJECT_OLD\PROJECT\InterviewAdeccoPromotionEngine\CommonLayer\obj\Debug\CommonLayer.dll
 E:\PROJECT_OLD\PROJECT\InterviewAdeccoPromotionEngine\CommonLayer\obj\Debug\CommonLayer.pdb
+E:\PROJECT_OLD\PROJECT\InterviewAdeccoPromotionEngine\CommonLayer\obj\Debug\CommonLayer.csprojAssemblyReference.cache

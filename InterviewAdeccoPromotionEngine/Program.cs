@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
 using BusinessLayer;
 using CommonLayer;
+
+
 namespace InterviewAdeccoPromotionEngine
 {
     class Program
@@ -42,8 +43,7 @@ namespace InterviewAdeccoPromotionEngine
             /// 5 * B    45 + 45 + 30
             /// 1 * C    20
             /// Total 370
-           
-
+            
             objBusiness.AddtoCart(enumCartItem.A);  // Add Five Char A
             objBusiness.AddtoCart(enumCartItem.A);
             objBusiness.AddtoCart(enumCartItem.A);
@@ -75,13 +75,14 @@ namespace InterviewAdeccoPromotionEngine
             objBusiness.AddtoCart(enumCartItem.A);
             objBusiness.AddtoCart(enumCartItem.A);
 
+
             objBusiness.AddtoCart(enumCartItem.B);    // Add Five Char B
             objBusiness.AddtoCart(enumCartItem.B);
             objBusiness.AddtoCart(enumCartItem.B);
             objBusiness.AddtoCart(enumCartItem.B);
             objBusiness.AddtoCart(enumCartItem.B);
 
-            objBusiness.AddtoCart(enumCartItem.C);    // Add One Char C   
+            objBusiness.AddtoCart(enumCartItem.C);    // Add One Char C  
 
             objBusiness.AddtoCart(enumCartItem.D);   // Add One Char D
 

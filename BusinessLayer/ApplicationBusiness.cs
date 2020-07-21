@@ -51,20 +51,34 @@ namespace BusinessLayer
             int TotalCost = 0;
             if (lstChar.Count > 0)
             {
-                TotalCost = GetTotalCost(enumCartItem.A);
-                TotalCost += GetTotalCost(enumCartItem.B);
+                TotalCost = GetTotalCost(enumCartItem.A); /// Calucation only for A Type SKU
+                TotalCost += GetTotalCost(enumCartItem.B); /// Calucation only for B Type SKU
 
-                if (lstChar.Contains(enumCartItem.C) && lstChar.Contains(enumCartItem.D) && 
-                    lstChar.Count(ListItem => ListItem == enumCartItem.C) == lstChar.Count(ListItem => ListItem == enumCartItem.D))
+                if (lstChar.Contains(enumCartItem.C) && lstChar.Contains(enumCartItem.D)) /// Calucation for C and D Type SKU's
                 {
-                    _dictPromotionCart.TryGetValue(enumCartItem.D, out objPromotion);
-
-                    TotalCost += lstChar.Count(ListItem => ListItem == enumCartItem.C) * objPromotion.PromotionPrice;
+                    int TotalCCount = lstChar.Count(ListItem => ListItem == enumCartItem.C);
+                    int TotalDCount = lstChar.Count(ListItem => ListItem == enumCartItem.D);
+                    GetTotalCost(enumCartItem.D);
+                    if (TotalCCount == TotalDCount)
+                    {
+                        TotalCost += TotalCCount * objPromotion.PromotionPrice;
+                    }
+                    else if (TotalCCount > TotalDCount)
+                    {
+                        TotalCost += TotalDCount * objPromotion.PromotionPrice;
+                        GetTotalCost(enumCartItem.C);
+                        TotalCost += (TotalCCount - TotalDCount) * objPromotion.UnitPrice;
+                    }
+                    else
+                    {
+                        TotalCost += TotalCCount * objPromotion.PromotionPrice;
+                        TotalCost += (TotalDCount - TotalCCount) * objPromotion.UnitPrice;
+                    }                    
                 }
                 else
-               {
-                    TotalCost += GetTotalCost(enumCartItem.C);
-                    TotalCost += GetTotalCost(enumCartItem.D);
+                {
+                    TotalCost += GetTotalCost(enumCartItem.C);  /// Calucation only for C Type SKU's
+                    TotalCost += GetTotalCost(enumCartItem.D); /// Calucation only for D Type SKU's
                 }
             }
             if (lstChar != null && lstChar.Count > 0 )

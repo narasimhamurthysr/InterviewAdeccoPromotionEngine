@@ -11,9 +11,16 @@ exclusive; in other words if one is applied the other promotions will not apply
 Test Setup 
 
 Unit price for SKU IDs 
-A 	50
+A 50
 B	30
 C	20
 D	15
-  
-  Test Scenario appened to the project, with all the unit test cases.
+
+Active Promotions
+
+3 of A's for 130
+2 of B's For 45
+C & D for 30
+
+-----------------------------------------------------------------------------------
+Test Scenario appened to the project, with all the unit test cases.
